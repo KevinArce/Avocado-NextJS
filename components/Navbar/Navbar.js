@@ -6,11 +6,15 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/" prefetch={false}>
+            Home
+          </Link>
         </li>
 
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about" prefetch={false}>
+            About
+          </Link>
         </li>
       </ul>
     </nav>
